@@ -11,18 +11,20 @@
     <div class="content"> 
      <h2>Sign Up</h2> 
      <div class="form"> 
-      <div class="inputBox"> 
-       <input type="text" required> <i>New Username</i> 
-      </div> 
-      <div class="inputBox"> 
-       <input type="password" required> <i>Password</i> 
-      </div> 
-      <div class="links">
-        <a href="./login.html" style="color: rgb(255, 255, 255);">Already Have an Account</a> 
-      </div> 
-      <div class="inputBox"> 
-       <input type="submit" value="Login"> 
-      </div> 
+       <div class="inputBox"> 
+          <form action="/signup" method="post">
+          <input name="username" type="text" required> <i>New Username</i> 
+        </div> 
+        <div class="inputBox"> 
+          <input name="password" type="password" required> <i>Password</i> 
+        </div> 
+        <div class="links">
+          <a href="./login.html" style="color: rgb(255, 255, 255);">Already Have an Account</a> 
+        </div> 
+        <div class="inputBox"> 
+          <input type="submit" value="Login"> 
+        </div> 
+      </form>
      </div> 
     </div> 
    </div> 
